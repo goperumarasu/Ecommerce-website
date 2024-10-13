@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collections</title>
+    
+        <!--my CSS-->
+        <link rel="stylesheet" href="shopnow.css">
+    
+        <!--Google font poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    
+        <!--font awesome icons link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="app.js"defer></script>
+           
+        
+    </head>
+    
+    <body>
+        
+        <nav class="navbar">
+            <h1>Thunikada</h1>
+            <div class="navbar-links">
+                <p class="navbar-item"><a href="index.html">Home</a></p>
+                <p class="navbar-item"><a href="">Collections</a></p>
+                <p class="navbar-item"><a href="">Contact</a></p>
+    
+            </div>
+            <div class="navbar-link-toggle">
+                <i class="fa-solid fa-bars" id="menu" onclick="shownav()"></i>
+            </div>
+            <!--Side bar -->
+            
+                
+            </div>
+    
+        </nav>
+        <div class="sidebar">
+            <p style="text-align: right;" id="xmark" ><i class="fa-solid fa-xmark" onclick="closenav()"></i></p>
+            
+            <div class="sidenavbar-links">
+                <p class="sidenavbar-item"><a href="index.html">Home</a></p>
+                <p class="sidenavbar-item"><a href="collections.html">Collections</a></p>
+                <p class="sidenavbar-item"><a href="contact.html">Contact</a></p>
+                
+            </div>
+            <img src="C:\Users\Goperumarasu\OneDrive\Pictures\thunikada logo3.png" alt="logo" height="35%" width="50%">
+            <p style="color: wheat;">Developed and maintaining by:</p>
+            <h3 style="color:gray">K.Goperumarasu</h3>
+    
+        </div> 
+        
+        <!--Order details-->
+
+        <div class="order-details">
+            <div class="corder-us">
+                <h2>Order Details</h2>
+
+            </div>
+        
+            <div class="name-order">
+                <h4>Name:</h4>
+                <input type="text" id="name-input">
+            </div>
+            <div class="phone-order">
+                <h4>phone number:</h4>
+                <input type="number" id="phone-input">
+            </div>
+        
+            <div class="email-order">
+                <h4>Email:</h4>
+                <input type="email" id="email-input">
+            </div>
+        
+            <div class="address-order">
+                <h4 >address:</h4>
+                <textarea name="message" class="ta"></textarea>
+                
+            </div>
+            <div class="order-overlay"></div>
+            <div class="order-popup">
+                <h2>Order placed Successfully</h2>
+                <p style="text-align: right;" id="xmark" ><i class="fa-solid fa-xmark" onclick="closeorder()"></i></p>
+            </div>
+            <div>
+                <button class="order-btn" onclick="order()">Place order</button>
+            </div>
+           
+            
+        </div>
+        <!-- footer-->
+     <div class="footer">
+        <div class="footer-container">
+            <h2 class="footer-heading">Thunikada</h2>
+            <p>Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories, Now at Thunikada. Refresh Your Style With Latest Brands At Best Price From Thunikada Only For You. Shop Now. Stylish Collection. Big Brands. Huge Collection.</p>
+            <div class="footer-container-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-gmail"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            
+         
+        </div>
+        <p class="copyright">@2024 Thunikada.com</p> 
+
+
+     </div>
+     <script src="shopnow.js" defer></script>
+     
+        
+
+    </body>    
+            
+
+</html>

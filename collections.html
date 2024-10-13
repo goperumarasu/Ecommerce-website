@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collections</title>
+    
+        <!--my CSS-->
+        <link rel="stylesheet" href="style.css">
+    
+        <!--Google font poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    
+        <!--font awesome icons link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="app.js"defer></script>
+           
+        
+    </head>
+    
+    <body>
+        
+        <nav class="navbar">
+            <h1>Thunikada</h1>
+            <div class="navbar-links">
+                <p class="navbar-item"><a href="index.html">Home</a></p>
+                <p class="navbar-item"><a href="collections.html">Collections</a></p>
+                <p class="navbar-item"><a href="contact.html">Contact</a></p>
+    
+            </div>
+            <div class="navbar-link-toggle">
+                <i class="fa-solid fa-bars" id="menu" onclick="shownav()"></i>
+            </div>
+            <!--Side bar -->
+            
+                
+            </div>
+    
+        </nav>
+        <div class="sidebar">
+            <p style="text-align: right;" id="xmark" ><i class="fa-solid fa-xmark" onclick="closenav()"></i></p>
+            
+            <div class="sidenavbar-links">
+                <p class="sidenavbar-item"><a href="index.html">Home</a></p>
+                <p class="sidenavbar-item"><a href="collections.html">Collections</a></p>
+                <p class="sidenavbar-item"><a href="contact.html">Contact</a></p>
+                
+            </div>
+            <img src="C:\Users\Goperumarasu\OneDrive\Pictures\thunikada logo3.png" alt="logo" height="35%" width="50%">
+            <p style="color: wheat;">Developed and maintaining by:</p>
+            <h3 style="color:gray">K.Goperumarasu</h3>
+    
+        </div> 
+        <div >
+            <input type="text"class="search" >
+        </div>
+
+        <div class="collections-container">
+            <div class="collections-container-item">
+                <img src="https://muselot.in/cdn/shop/products/muselot_s-plaint-shirtformeninblackcolor.jpg?v=1658089866&width=1445" height="300px" width="400px" >
+                <h2>Black tshirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4ORnoy4H7mvmEtBAoeKXSe8efef2olgehQ&s"width="400px" height="300px">
+                <h2>white tshirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+
+            <div class="collections-container-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ZI1WkI0_CkTC2UjVTPVnDnuYaVXSRLICkw&s" width="400px" height="300px">
+                <h2>Black pant</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://img.kwcdn.com/product/fancy/1b9136fe-1a7d-4603-a0a8-6f4d9c6d9c23.jpg" width="400px" height="300px">
+                <h2>white pant</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://5.imimg.com/data5/YH/SM/MY-77380369/casual-shoes-white-men.jpg" width="400px" height="300px">
+                <h2>white shoe</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1hblFaSa-I8MDqInoSFvztH0oE6syUVsVw&s" width="400px" height="300px">
+                <h2>Black shoe</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://muselot.in/cdn/shop/products/Muselot_s-plain-t-shirtforwomen-in-redcolor.jpg?v=1658093714&width=1445"  width="400px" height="300px">
+                <h2>red tshirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://5.imimg.com/data5/TS/NZ/ZM/SELLER-83590200/full-sleeve-shirt.jpg"  width="400px" height="300px">
+                <h2>white shirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/65268ab4b73d69533b48df48/l-4plain-black-yaara-fashion-original-imagmb9f3f8vfhyh.webp"  width="400px" height="300px">
+                <h2>Black shirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKNyu86Z0JPjqHg4qllKIUoj7EdbjvKzxctw&s"  width="400px" height="300px">
+                <h2>red shirt</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20230417/Ec2m/643d3736907deb497aea4161/-473Wx593H-469202722-black-MODEL.jpg"  width="400px" height="300px">
+                <h2>sun glass</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+            <div class="collections-container-item">
+                <img src="https://images-cdn.ubuy.co.in/6481094c54c2e64fe71473d6-wedding-guest-dresses-for-women-women.jpg"  width="400px" height="300px">
+                <h2>party wear</h2>
+                <button class="co-co-btn" onclick="buy()">Shop now</button>
+            </div>
+
+            
+
+
+
+
+        </div>
+        <script src="search.js" defer></script>
+        <script src="buy.js" defer></script>
+        
+
+    </body>    
+            
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunikada</title>
+
+    <!--my CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--font awesome icons link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="app.js"defer></script>
+    
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <h1>Thunikada</h1>
+        <div class="navbar-links">
+            <p class="navbar-item"><a href="index.html">Home</a></p>
+            <p class="navbar-item"><a href="collections.html">Collections</a></p>
+            <p class="navbar-item"><a href="contact.html">Contact</a></p>
+
+        </div>
+        <div class="navbar-link-toggle">
+            <i class="fa-solid fa-bars" id="menu" onclick="shownav()"></i>
+        </div>
+        <!--Side bar -->
+        
+            
+        </div>
+
+    </nav>
+    <div class="sidebar">
+        <p style="text-align: right;" id="xmark" ><i class="fa-solid fa-xmark" onclick="closenav()"></i></p>
+        
+        <div class="sidenavbar-links">
+            <p class="sidenavbar-item"><a href="index.html">Home</a></p>
+            <p class="sidenavbar-item"><a href="collections.html">Collections</a></p>
+            <p class="sidenavbar-item"><a href="contact.html">Contact</a></p>
+            
+        </div>
+        <img src="C:\Users\Goperumarasu\OneDrive\Pictures\thunikada logo3.png" alt="logo" height="35%" width="50%">
+        <p style="color: wheat;">Developed and maintaining by:</p>
+        <h3 style="color:gray">K.Goperumarasu</h3>
+
+    </div> 
+    
+    <!--header-->
+
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>with our stunning collections</p>
+            <button class="shop-now" onclick="buy()">Shop Now</button>
+        </div>
+
+        <div>
+            <img class="header-image" src="https://media.istockphoto.com/id/1085149318/photo/sale-sign-at-the-entrance-of-clothing-store.jpg?s=1024x1024&w=is&k=20&c=5YWjCbMlJmxI231Yf4o9zmIsu5cPCArimI_ZMpnKtVg=" alt="img1" width="900px" height="400px">
+        </div>
+    </div>
+
+    <!--service-->
+
+    <div class="service">
+        <div class="service-container1">
+            <div>
+                <h2>We Provide Best</h2>
+                <h2>Customer Experience</h2>
+            </div>
+            <div>
+                <p>|| we ensure that our customer have the best shopping experience</p>
+            </div>
+
+        </div >
+        <div class="service-container2">
+            <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>New Arrivals</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis pariatur? Recusandae hic, ut suscipit nam illo, corrupti aperiam sed labore sit magni sequi dignissimos.</p>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Satisfaction Guaranteed</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis pariatur? Recusandae hic, ut suscipit nam illo, corrupti aperiam sed labore sit magni sequi dignissimos.</p>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Fast and Free Shipping</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis pariatur? Recusandae hic, ut suscipit nam illo, corrupti aperiam sed labore sit magni sequi dignissimos.</p>
+        </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="new-arrivals-heading" style="padding:20px">
+        <h2>New Arrivals</h2>
+    </div>
+
+    <div class="new-arrivals">
+        <div class="new-arrivals-container">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-21072024-TrendsSIS-BagTheClosetBasics-boysteesshirts-starting249.jpg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+
+        </div>
+        <div class="new-arrivals-container">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-21072024-TrendsSIS-BagTheClosetBasics-tshirts-starting199.jpg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div>  
+        <div class="new-arrivals-container">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-21072024-TrendsSIS-BagTheClosetBasics-dresses-starting499.jpg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div> 
+        <div class="new-arrivals-container">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-21072024-TrendsSIS-BagTheClosetBasics-trousers-starting699.jpg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div>  
+   
+  
+
+    </div>
+    <div class="most-wanted-heading" style="padding-left: 20px;padding-right: 20px;padding-top: 50px;padding-bottom: 30px">
+        <h2>Most Wanted</h2>
+    </div>
+
+    <div class="most-wanted">
+        <div class="most-wanted-container">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+
+        </div>
+        <div class="most-wanted-container">
+            <img src="https://img.mensxp.com/media/content/2020/Aug/1_5f3a87edf1f0c.jpeg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div>  
+        <div class="most-wanted-container">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240109/PGrX/659c593a74cb305fe00bc5d3/-473Wx593H-466957414-black-MODEL.jpg" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div> 
+        <div class="most-wanted-container">
+            <img src="https://images.unsplash.com/photo-1490092374320-1ca36d69ff6a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D" alt="shoes" height="400px" width="300px">
+            <button onclick="buy()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            
+        </div>  
+        <div class="subscribe-overlay"></div>
+            <div class="subscribe-popup">
+                <h1>Subscribed Thunikada Successfully</h1>
+                <p style="text-align: right;" id="xmark" ><i class="fa-solid fa-xmark" onclick="closesubscribe()"></i></p>
+            </div>  
+   
+  
+
+    </div>
+    <div class="news">
+        <h2>Join Our Newsletter</h2>
+        <p>Signup for our email newsletter to get exclusive discounts ands Updates</p>
+        <div><input type="text" class="search"></div>
+        <div><button onclick="subscribe()">Subscribe <i class="fa-solid fa-arrow-right"></i></button></div>
+
+    </div>
+    <!-- footer-->
+     <div class="footer">
+        <div class="footer-container">
+            <h2 class="footer-heading">Thunikada</h2>
+            <p>Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories, Now at Thunikada. Refresh Your Style With Latest Brands At Best Price From Thunikada Only For You. Shop Now. Stylish Collection. Big Brands. Huge Collection.</p>
+            <div class="footer-container-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-gmail"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            
+         
+        </div>
+        <p class="copyright">@2024 Thunikada.com</p> 
+
+
+     </div>
+     <script src="buy.js" defer></script>
+     <script src="subscribe.js" defer></script>
+
+
+
+</body>
+
+</html>
